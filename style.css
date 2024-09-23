@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcfbf77b; 
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-image: url("https://img.freepik.com/free-vector/minimal-background-simple-cream-design-vector_53876-156575.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    background: rgb(206, 188, 162);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#searchButton, #clearHistoryButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #66573d; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover, #clearHistoryButton:hover {
+    background-color: #382c1a; 
+}
+
+#clearHistoryButton {
+    width: 100%;
+    background-color: #66573d;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
